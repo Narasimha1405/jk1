@@ -1,0 +1,167 @@
+Read library details  from one Excel  file and Write it into another excel file.
+	(write only Fiction book details into another file)
+
+
+
+
+
+
+
+
+
+
+
+1  pwd
+    2  cd ..
+    3  pwd
+    4  ls
+    5  cd..
+    6  cd ..
+    7  ls
+    8  cd etc/
+    9  ls
+   10  ls -lrt
+   11  mkdir LinuxDemo
+   12  ls
+   13  cd LinuxDemo/
+   14  cat > UserDetail
+   15  cat UserDetail
+   16  ls -lrt
+   17  mv UserDetail /etc
+   18  ls
+   19  ls /etc
+   20  cd ..
+   21  mv UserDetail UserNames
+   22  ls
+   23  rm UserNames
+   24  ls
+   25  rmdir LinuxDemo/
+   26  ls
+   27.history
+   1  sudo nano ~/.bashrc
+    2  cd /
+    3  ls
+    4  ls -lrt
+    5  mkdir /etc/demo
+    6  sudo mkdir /etc/demo
+    7  ls /etc
+    8  ls -lrt /etc
+    9  sudo chmod -R 777 /etc/demo/
+   10  ls -lrt /etc
+clear
+
+22  ls
+   23  bin
+   24  cd bin/
+   25  ls
+   26  javac
+   27  sudo gedit ~/.bashrc
+   28  sudo nano ~/.bashrc
+   29  source ~/.bashrc
+   30  sudo nano ~/.bashrc
+   31  source ~/.bashrc
+   32  java
+   33  javac
+   34  history
+
+31  source ~/.bashrc
+   32  java
+   33  javac
+   34  history
+   35  cd ..
+   36  sudo apt-get install mysql-server
+   37  history
+   38  sudo apt-get install mysql-client
+   39  mysql -u root
+   40  sudo apt-get update mysql-server
+   41  mysql -u root -P
+   42  mysql -u root -p
+   43  sudo apt-get install mysql-server
+   44  mysql -u root -p
+   45  history
+
+================================================================
+
+
+
+
+tar -xvf jdk1.8.tgz
+
+sudo gedit ~/.bashrc
+
+exportPATH=/usr/lib/java8/bin:$PATH
+
+source ~/.bashrc
+----------------------------------
+
+cd bin/
+ls
+To unzip the tar using deutilaztion
+-----------------------------------
+      tar -xvf jdk-17_linux-x64_bin.tar
+using bashrc we edit the path
+------------------------------
+      sudo gedit ~/.bashrc
+statement we written to set path (here we have to given our own path)
+   export PATH=/usr/lib/java8/bin:$PATH
+------------------------------------------------------
+save and close the bashrc
+      source ~/.bashrc
+
+
+
+
+
+====================================================
+vi editor
+
+
+Moving within a file
+k – Move cursor up
+j – Move cursor down
+h – Move cursor left
+l – Move cursor right
+:q -quit
+:w -savee
+
+:wq-save and quit
+x - deleting a char
+o - open a new line in inset mode
+dd - deleting a line
+-------------------------------
+echo "Enter username"
+read username
+echo "Enter password"
+read password
+
+if [[ ( $username == "admin" && $password == "secret" ) ]]; then
+echo "valid user"
+else
+echo "invalid user"
+fi
+
+-------------------
+echo "Enter directory name"
+read ndir
+if [ -d "$ndir" ]
+then
+echo "Directory exist"
+else
+'mkdir $ndir'
+echo "Directory created"
+fi
+#! /bin/sh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
